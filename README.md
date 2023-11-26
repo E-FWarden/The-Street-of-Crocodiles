@@ -5,6 +5,10 @@
     <meta name="author" content="Erin Warden">
     <title>The Street of Crocodiles</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Hind+Madurai&family=Lora&display=swap" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet" >
 <body>
 <header>
 <h1>The Street of Crocodiles</h1>
