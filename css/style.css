@@ -29,7 +29,7 @@ img {
     margin-right: auto;
 }
 
-img { 
+img2 { 
     display: block;
     padding: 0;
     max-width: 100%;
@@ -92,6 +92,7 @@ blockquote {
     text-indent: -0.7;
     color: #0E0E0E;
 }
+
 header h2 {
     font-size: 5;
     font-style: italic;
@@ -246,22 +247,29 @@ footer a:hover {
 .connections{
     position: relative;
     margin: 0 auto;}
+
 .connections ul{
     margin: 0;
     padding: 0;}
+
 .connections li{
     margin: 0 10px;
     padding: 0;
     list-style: none;
     display: inline-block;  }
+
 .connections a:link{
         border-bottom: none;       }
+
 .connections img, .connections svg{
     border: none;}
+
 .connections a:hover img, .connections a:hover svg{
     border-bottom: none;}
+
  .connections svg {
     margin: 2rem auto;}
+    
 .connections a:hover svg path {
     fill: #333;
     transition: all 0.2s ease-in-out;}
