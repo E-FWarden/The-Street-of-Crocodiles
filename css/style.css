@@ -17,15 +17,14 @@ section, header {
 .topimg {
     margin-top: 0;
     margin-bottom: 0rem;
-    width: fit-content;
-    height: auto;
-    object-fit: contain;
 }
+
+
 
 img  { 
     display: block;
     padding: 0;
-    max-width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,10 +33,26 @@ img  {
     display: flex;
     align-items: center;
     justify-content: center
+    
+}
+
+.mar{
+    background: #C03900;
+    color: #fff2f6;
+    padding: 6rem 0;
+    
 
 }
 
+.mar h2{
+    
+        color: #fff2f6;
+        font-family: 'lora', serif;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
 
+}
 
 h2 {
     color: #8B2900;
@@ -86,9 +101,9 @@ blockquote {
 }
 header h1 {
     font-size: rem;
-    color:#D68230;
+    color:#D44E15;
     font-family: 'Days One', sans-serif;
-    color:  #0E0E0E;
+    color:  #f7f7f7;
     margin-bottom: 0rem;
     margin-top: 1rem;
 }
@@ -97,7 +112,7 @@ header h2 {
     font-size: 5;
     font-style: italic;
     font-family: 'lora', serif;
-    color:  #8B2900;
+    color:  #fff2f6;
 }
 
 
@@ -131,7 +146,7 @@ header p {
     line-height: 35%;
     width: .9em;
     font-size: 300%;
-    color: #8B2900; 
+    color: #fff2f6; 
 }
 .dropcap3 {
     font-family: 'lora', serif;
@@ -149,8 +164,19 @@ nav {
     margin: 0;
     width: 100%;
     background: #2C3336;
-    padding: 2rem 0 ;
+    padding: 0rem 0 ;
     font-size: 0.8rem;
+    position: fixed;
+}
+
+nav section h2{
+    font-size: 5;
+    font-style: italic;
+    font-family: 'lora', serif;
+    color:  #fff2f6;
+    float: left;
+    padding-right: 3rem;
+
 }
 
 nav ul{
@@ -158,6 +184,8 @@ nav ul{
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding: 1rem;
+    padding-left: 1rem;
 
 }
 
@@ -185,10 +213,11 @@ nav a:hover {
 
 
 .dark {
-    background: #D68230;
+    background: #C03900;
     color: #0E0E0E;
     padding: 6rem 0;
 }
+
 
 
 
