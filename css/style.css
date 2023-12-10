@@ -91,9 +91,9 @@ h3 {
 
 blockquote {
     line-height: 1.5;
-    margin-bottom: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 2.2rem;
+    margin-bottom: 3rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     font-size: 30spx;
     font-family: 'Lora', serif;
     hanging-punctuation: first;
@@ -136,7 +136,7 @@ header p {
     font-family: 'lora', serif;
     float: left;
     line-height: 35%;
-    width: .8.5em;
+    width: .8.40em;
     font-size: 300%;
     color: #8B2900; 
 }
@@ -144,7 +144,7 @@ header p {
     font-family: 'lora', serif;
     float: left;
     line-height: 35%;
-    width: .9em;
+    width: .9.5em;
     font-size: 300%;
     color: #fff2f6; 
 }
@@ -152,7 +152,7 @@ header p {
     font-family: 'lora', serif;
     float: left;
     line-height: 35%;
-    width: .6.5em;
+    width: .6.85em;
     font-size: 300%;
     color: #8B2900; 
 }
@@ -303,9 +303,12 @@ footer .connections a:hover svg path {
             font-size: 1.5rem;
             line-height: 90%
         }
+        .container {
+            max-height: 60px;
+            padding-right: 2rem;
+        }
 
 }
-   
 /* Media query for screens between 601px and 900px */
 @media (min-width: 601px) and (max-width: 900px) {
     h1 {
@@ -379,5 +382,6 @@ footer .connections a:hover svg path {
             font-size: 3rem;
             line-height: 35%;
         }
+      
         
-}
+} 
