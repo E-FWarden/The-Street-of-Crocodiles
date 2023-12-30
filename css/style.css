@@ -196,7 +196,7 @@ nav ul{
 
 
 nav a:link {
-    color: #0E0E0E;
+    color: #fff2f6;
 }
 
 nav ul li {
@@ -206,12 +206,12 @@ nav ul li {
 }
 
 nav a:visited {
- color: #fff;
+ color: #C03900;
 }
 
 nav a:hover {   
     border-bottom: none;
-    color: #000;
+    color: #C03900;
     transition: all 0.3s ease-in-out;
 
 }
